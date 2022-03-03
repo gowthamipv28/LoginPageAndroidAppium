@@ -16,6 +16,7 @@ public class SwagLabsLogin{
         capabilities.setCapability("deviceName", "Pixel 3");
         capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("udid", "emulator-5554");
+        capabilities.setCapability("app","/Users/gowthamipv/IdeaProjects/LoginPage/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk");
         capabilities.setCapability("appPackage", "com.swaglabsmobileapp");
         capabilities.setCapability("appActivity", "com.swaglabsmobileapp.MainActivity");
 
